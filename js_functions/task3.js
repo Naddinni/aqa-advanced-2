@@ -1,9 +1,9 @@
-function printNum (num) {
+function countDown  (num) {
     console.log(num);
     if (num > 0) {
-        printNum( num - 1 );
+        countDown ( num - 1 );
     }
 }
 
-(printNum(5) );
+countDown (5);
 
